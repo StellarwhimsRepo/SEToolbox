@@ -7,7 +7,7 @@ Created by Mid-Space productions. Est. 1993
 ![](http://i.imgur.com/429uvwe.jpg)
 
 
-## Currently dead as of 2019-08-23 due to changes in the major game update containing Economy.
+## IGOR!!! THROW THE LEVER!! LIVE DAMN YOU  LIIIIIIVE - 9/15/2019. -DJukes/Tostito
 
 ---
 
