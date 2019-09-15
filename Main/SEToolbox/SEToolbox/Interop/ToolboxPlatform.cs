@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using VRage;
+using VRage.Audio;
 using VRage.Input;
 using VRage.Library.Exceptions;
 using VRage.Serialization;
@@ -16,9 +17,23 @@ namespace SEToolbox.Interop
 
         public float RAMCounter { get; set; }
 
+        public long ProcessPrivateMemory { get; }
+
         public string Clipboard { get; set; }
 
         public bool IsAllocationReady { get; set; }
+
+        public bool IsScriptCompilationSupported { get; }
+
+        public bool IsSingleInstance { get; }
+
+        public bool IsRenderOutputDebugSupported { get; }
+
+        public bool IsRemoteDebuggingSupported { get; }
+
+        public uint[] DeveloperKeys { get; }
+
+        public IMyAudio Audio { get; }
 
         public IAnsel Ansel { get; set; }
 
@@ -31,6 +46,8 @@ namespace SEToolbox.Interop
         public bool SessionReady { set; get; }
 
         public IMyAnalytics Analytics { get; set; }
+
+        public IVRageInput2 Input2 { get; }
 
         public IMyImeProcessor ImeProcessor
         {
@@ -159,6 +176,7 @@ namespace SEToolbox.Interop
 
         public List<MyDriverDetails> GetVideoDriverDetails()
         {
+
             return new List<MyDriverDetails>();
         }
 
