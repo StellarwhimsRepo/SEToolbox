@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using VRage;
 using VRage.Input;
 using VRage.Library.Exceptions;
+using VRage.Serialization;
 using VRage.Utils;
 using VRageMath;
+using VRageRender;
 
 namespace SEToolbox.Interop
 {
@@ -36,6 +38,72 @@ namespace SEToolbox.Interop
             {
                 throw new NotImplementedException();
             }
+        }
+
+        public void CreateInput2()
+        {
+
+        }
+
+        public void Done()
+        {
+
+        }
+
+        public void CreateRenderDevice(ref MyRenderDeviceSettings? settings, out object deviceInstance, out object swapChain)
+        {
+            deviceInstance = null;
+            swapChain = null;
+        }
+
+        public void DisposeRenderDevice()
+        {
+
+        }
+
+        public MyAdapterInfo[] GetRenderAdapterList()
+        {
+            MyAdapterInfo [] adapterInfo = null;
+            return adapterInfo; ;
+        }
+
+        public void ApplyRenderSettings(MyRenderDeviceSettings? settings)
+        {
+
+        }
+
+        public object CreateRenderAnnotation(object deviceContext)
+        {
+            object objectType = null;
+            return objectType;
+        }
+
+        public string GetAppDataPath()
+        {
+            string stringType = null;
+            return stringType;
+        }
+
+        public ExceptionType GetExceptionType(Exception e)
+        {
+            ExceptionType exceptionDummy = 0;
+            return exceptionDummy;
+        }
+
+        public IProtoTypeModel GetTypeModel()
+        {
+            IProtoTypeModel modelType = null;
+            return modelType;
+        }
+
+        public void WriteLineToConsole(string msg)
+        {
+
+        }
+
+        public void LogToExternalDebugger(string message)
+        {
+
         }
 
         public void CreateToolWindow(IntPtr windowHandle)
