@@ -174,11 +174,11 @@ namespace SEToolbox.Interop
             return 0;
         }
 
-        public List<MyDriverDetails> GetVideoDriverDetails()
-        {
+        //public List<MyDriverDetails> GetVideoDriverDetails()
+        //{
 
-            return new List<MyDriverDetails>();
-        }
+        //    return new List<MyDriverDetails>();
+        //}
 
         public void HideSplashScreen()
         {

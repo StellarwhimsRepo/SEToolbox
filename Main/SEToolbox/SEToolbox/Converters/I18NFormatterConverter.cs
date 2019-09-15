@@ -5,6 +5,7 @@
     using System.Windows;
     using System.Windows.Data;
     using WPFLocalizeExtension.Extensions;
+    using XAMLMarkupExtensions;
 
     public class I18NFormatterConverter : IMultiValueConverter
     {
